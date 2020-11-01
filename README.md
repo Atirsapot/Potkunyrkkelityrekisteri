@@ -1,7 +1,7 @@
-# Potkunyrkkelitytulosrekisteri
+# Potkunyrkkeilyn tulosrekisteri
 2020 Java fullstack harjoitustyö.
  
-Työn suunnitelma, esittely ja muuta lisätietoa osoitteessa https://tim.jyu.fi/view/kurssit/tie/ohj2/2020k/ht/tovarita
+Työn suunnitelma, esittely ja muuta lisätietoa osoitteessa https://tim.jyu.fi/view/kurssit/tie/ohj2/2020k/ht/tovarita HUOM. Vaatii valitettavasti kirjautumisen.
 
 Ohjelman avulla tallennetaan potkunyrkkeilyottelijoita sekä -otteluita.
 
