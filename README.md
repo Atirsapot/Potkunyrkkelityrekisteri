@@ -229,3 +229,80 @@ Ottelut -luokka
 
 Tietorakennekuva:
 ![](%%raw%%kuvat/TIETORAKENNEKUVA.png)
+
+
+# Ohjelman käyttö
+
+## Ohjelman käynnistys.
+Ohjelma käynnistetään klikkaamalla Ottelukanta.jar-ikonia tai antamalla komentoriviltä komento
+```
+java -jar ottelukanta.jar
+```
+## Pääikkuna
+Kun ohjelma on käynnistynyt on näkyvillä ohjelman pääikkuna:
+
+![](%%raw%%kuvat/PaaikkunaSB.png)
+
+Ottelija lisätään ikkunasta: 
+
+![](%%raw%%kuvat/LisaaOttelijaSB.png)
+
+Uusi ottelu lisätään ikkunasta: 
+![](%%raw%%kuvat/OtteluikkunaSB.png)
+
+\
+Pääikkunassa on seuraava menurakenne:
+```
+Tiedosto         Muokkaa                 Apua
+========         =======                 =====
+Listaa...        Lisää ottelija          Ohje
+Tallenna         Uusi ottelu             Tietoja                      
+Lopeta         
+
+```
+
+### Hakeminen
+Pääikkunan vasemmassa reunassa näkyy Hakuehto.  Tästä
+voi valita minkä kentän mukaan etsitään (Ottelijat tai Ottelut).  Tämän jälkeen
+tekstikenttään voi syöttää hakuehdon ja listaan tulee vain
+ne ottelijat joille haku toteutuu.  Hakutermi saa löytyä valitusta
+kentästä mistä kohti vaan.  Esimerkiksi jos kirjoitetaan
+hakuehtoon <tt>s</tt>, niin haetaan kaikki jäsenet joiden nimessä
+on s jossakin kohti.
+
+### Muokkaaminen
+Valittua jäsentä voidaan muokata menemällä tietoihin oikeaan
+kohtaan ja kirjoittamalla uusi arvo.  Jos tietoon syötetään jotakin mikä
+ei kelpaa, tulee tästä ilmoitus:
+
+```
+Esim paino muodosta: 45 kiloa
+
+tulee ilmoittaa
+
+"Ottelijan paino ilmoitetaan kokonaislukuna"
+```
+
+Ottelijaa muokataan ikkunasta: 
+
+![](%%raw%%kuvat/MuokkaaOttelijaSB.png)
+
+## Menutoiminnot yksityiskohtaisemmin
+
+### Listaa...
+Avaa uuden ikkunan jolle listataan ottelijoita määrätyillä hakuehdoilla.
+Esim. 10 eniten voittanutta ottelijaa
+Lista on mahdollista tulostaa .txt tiedostona
+
+### Tallenna
+Tallentaa kaikki muutokset.  Mahdollinen ottelija / ottelu jäsen tallentuu tiedostoihin.
+Ohjelma kehottaa tarkastamaan oikeinkirjoituksen ennen tallentamista.
+### Lisää ottelija & Uusi ottelu
+Tyhjentää tekstikentät uuden ottelijan tai uuden ottelun lsiäämistä varten
+Tiedot lisätään painamalla "Tallenna"
+
+...
+
+### Help
+Avaa TIMin harjoitustyön suunnitelman verkkoselaimessa
+
