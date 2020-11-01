@@ -245,10 +245,11 @@ Kun ohjelma on käynnistynyt on näkyvillä ohjelman pääikkuna:
 
 Ottelija lisätään ikkunasta: 
 
-![](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/LisaaOttelijaSB.png)
+![Ottelijan lisäysikkuna](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/LisaaOttelijaSB.png)
 
 Uusi ottelu lisätään ikkunasta: 
-![](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/OtteluikkunaSB.png)
+
+![Ottelun lisäysikkuna](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/OtteluikkunaSB.png)
 
 \
 Pääikkunassa on seuraava menurakenne:
