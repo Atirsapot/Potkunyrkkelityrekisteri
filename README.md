@@ -228,7 +228,7 @@ Ottelut -luokka
 ```
 
 Tietorakennekuva:
-![](%%raw%%kuvat/TIETORAKENNEKUVA.png)
+![Tietorakennekuva](kuvat/TIETORAKENNEKUVA.png)
 
 
 # Ohjelman käyttö
