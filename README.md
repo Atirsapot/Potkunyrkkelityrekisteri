@@ -228,7 +228,7 @@ Ottelut -luokka
 ```
 
 Tietorakennekuva:
-![Tietorakennekuva](kuvat/TIETORAKENNEKUVA.png)
+![Tietorakennekuva](Harkkatyön toimiva versio 7.0/kuvat/TIETORAKENNEKUVA.png)
 
 
 # Ohjelman käyttö
