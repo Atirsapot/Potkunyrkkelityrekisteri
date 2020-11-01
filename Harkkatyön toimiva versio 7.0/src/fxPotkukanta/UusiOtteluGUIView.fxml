@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="339.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxPotkukanta.UusiOtteluGUIController">
+   <center>
+      <VBox prefHeight="243.0" prefWidth="373.0" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+         <children>
+            <Label text="Ottelu:" />
+            <TextField fx:id="textOttelunNimi" />
+            <GridPane>
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Ottelijan nimi" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label text="Seura" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label text="Paino" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <TextField fx:id="textKotiSeura" GridPane.rowIndex="2" />
+                  <TextField fx:id="textKotiPaino" GridPane.rowIndex="3" />
+                  <TextField fx:id="textVierasSeura" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <TextField fx:id="textVierasPaino" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Label text="Voittaja" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="textTulostyyppi" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Label text="Tuloksen tyyppi" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+                  <TextField fx:id="textKotiOttelija" GridPane.rowIndex="1" />
+                  <Label text="Pvm:" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="textOttelunPvm" GridPane.columnIndex="1" />
+                  <TextField fx:id="textVierasOttelija" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <CheckBox fx:id="boxVoittoKoti" mnemonicParsing="false" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                  <CheckBox fx:id="boxVoittoVieras" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+               </children>
+               <VBox.margin>
+                  <Insets left="2.0" right="2.0" top="20.0" />
+               </VBox.margin>
+            </GridPane>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buttonTallenna" layoutX="147.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleTallennaOttelu" text="Tallenna" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Pane>
+   </bottom>
+</BorderPane>
