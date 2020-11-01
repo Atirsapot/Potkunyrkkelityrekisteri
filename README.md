@@ -228,7 +228,7 @@ Ottelut -luokka
 ```
 
 Tietorakennekuva:
-![Tietorakennekuva](https://github.com/[atisapot]/[Potkunyrkkelityrekisteri]/blob/[main]/TIETORAKENNEKUVA.png?raw=true)
+![Tietorakennekuva](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/TIETORAKENNEKUVA.png)
 
 
 # Ohjelman käyttö
