@@ -241,14 +241,14 @@ java -jar ottelukanta.jar
 ## Pääikkuna
 Kun ohjelma on käynnistynyt on näkyvillä ohjelman pääikkuna:
 
-![](%%raw%%kuvat/PaaikkunaSB.png)
+![Pääikkuna](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/PaaikkunaSB.png)
 
 Ottelija lisätään ikkunasta: 
 
-![](%%raw%%kuvat/LisaaOttelijaSB.png)
+![](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/LisaaOttelijaSB.png)
 
 Uusi ottelu lisätään ikkunasta: 
-![](%%raw%%kuvat/OtteluikkunaSB.png)
+![](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/OtteluikkunaSB.png)
 
 \
 Pääikkunassa on seuraava menurakenne:
@@ -285,7 +285,7 @@ tulee ilmoittaa
 
 Ottelijaa muokataan ikkunasta: 
 
-![](%%raw%%kuvat/MuokkaaOttelijaSB.png)
+![](https://raw.githubusercontent.com/Atirsapot/Potkunyrkkelityrekisteri/main/Harkkatyo%CC%88n%20toimiva%20versio%207.0/kuvat/MuokkaaOttelijaSB.png)
 
 ## Menutoiminnot yksityiskohtaisemmin
 
